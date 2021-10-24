@@ -15,12 +15,7 @@ module.exports = {
     {
       title: 'html-css',
       collapsable: false,
-      children: [
-        ['01.html-css/01.flex布局语法', 'flex布局语法'],
-        ['01.html-css/01.flex布局案例-基础', 'flex布局案例-基础'][
-          ('01.html-css/2_5_Grid布局', 'Flex Grid 布局方式对比')
-        ],
-      ],
+      children: [['01.html-css/01.flex布局语法', 'flex布局语法']],
     },
   ],
   '/03.技术杂谈/': [
