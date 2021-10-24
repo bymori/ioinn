@@ -1,3 +1,11 @@
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: by_mori
+ * @Date: 2021-10-24 22:59:52
+ * @LastEditors: by_mori
+ * @LastEditTime: 2021-10-25 01:26:22
+ */
 // nav
 module.exports = [
   { text: '首页', link: '/' },
@@ -89,4 +97,4 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
-]
+];
