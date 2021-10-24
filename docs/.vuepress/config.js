@@ -4,7 +4,7 @@
  * @Author: by_mori
  * @Date: 2021-10-24 20:29:50
  * @LastEditors: by_mori
- * @LastEditTime: 2021-10-24 23:41:54
+ * @LastEditTime: 2021-10-25 02:48:10
  */
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
@@ -17,7 +17,7 @@ module.exports = {
   title: 'io小栈 blog',
   description:
     'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。',
-  // base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  // base: '/ioinn/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     // lineNumbers: false, // 代码行号
   },
