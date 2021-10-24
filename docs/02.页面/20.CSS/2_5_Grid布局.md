@@ -1,7 +1,7 @@
 ---
-title: 2_5_Grid布局
+title: Flex Grid 布局方式对比
 date: 2021-10-25 01:14:03
-permalink: /pages/44f119/
+permalink: /pages/44f119
 categories:
   - 页面
   - CSS
@@ -10,7 +10,6 @@ tags:
   - Grid
   - 布局
 ---
-# Flex Grid 布局方式对比
 
 ## Flex
 
@@ -18,7 +17,7 @@ tags:
 - 一个`Flexbox`容器只能控制一个方向
   - 水平 or 垂直 方向
 - 如需控制另一方向则需要 再添加一层`Flexbox`容器
-
+<!-- more -->
 ## Grid
 
 - Gird则是二维(`2-Dimensions`)的排版方式
