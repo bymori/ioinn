@@ -1,4 +1,12 @@
 #!/usr/bin/env sh
+###
+ # @Descripttion: 
+ # @version: 
+ # @Author: by_mori
+ # @Date: 2021-10-24 22:17:05
+ # @LastEditors: by_mori
+ # @LastEditTime: 2021-10-24 23:49:58
+### 
 
 # 确保脚本抛出遇到的错误
 set -e
@@ -10,16 +18,16 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'b.xugaoyi.com' > CNAME
+echo 'ioinn.cn' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=git@github.com:bymor/ioinn.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
+  githubUrl=https://bymor:${GITHUB_TOKEN}@github.com:bymor/ioinn.git
+  git config --global user.name "ioinn"
+  git config --global user.email "by_mori@163.com"
 fi
 git init
 git add -A
