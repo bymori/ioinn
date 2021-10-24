@@ -1,0 +1,13 @@
+{
+  "name": "ioinn",
+  "version": "1.0.0",
+  "description": "沫沫写博客的地方",
+  "main": "index.js",
+  "repository": "git@github.com:bymori/ioinn.git",
+  "author": "by_mori <by_mori@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
