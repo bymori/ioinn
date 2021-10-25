@@ -5,7 +5,7 @@
  # @Author: by_mori
  # @Date: 2021-10-24 22:17:05
  # @LastEditors: by_mori
- # @LastEditTime: 2021-10-25 02:37:04
+ # @LastEditTime: 2021-10-25 15:08:39
 ### 
 # ###
 #  # @Descripttion: 
@@ -84,3 +84,4 @@ git commit -m 'deploy'
 git push -f git@github.com:bymori/ioinn.git master:gh-pages
 
 cd -
+rm -rf docs/.vuepress/dist # 上传完成后删除本地dist文件夹
