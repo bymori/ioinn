@@ -5,7 +5,7 @@
  # @Author: by_mori
  # @Date: 2021-10-24 22:17:05
  # @LastEditors: by_mori
- # @LastEditTime: 2021-10-26 21:16:50
+ # @LastEditTime: 2021-10-26 21:26:37
 ### 
 
 # 确保脚本抛出遇到的错误
@@ -34,7 +34,7 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
-# deploy to coding pages
+# deploy to coding pages1
 echo 'blog.ioinn.cn' > CNAME  # 自定义域名
 # echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
