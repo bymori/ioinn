@@ -5,7 +5,7 @@
  # @Author: by_mori
  # @Date: 2021-10-24 22:17:05
  # @LastEditors: by_mori
- # @LastEditTime: 2021-10-26 21:15:01
+ # @LastEditTime: 2021-10-26 21:16:50
 ### 
 
 # 确保脚本抛出遇到的错误
@@ -41,7 +41,8 @@ echo 'blog.ioinn.cn' > CNAME  # 自定义域名
 if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
   codingUrl=git@e.coding.net:bymori/website/ioinn.git
 else
-  codingUrl=https://by_mori:${CODING_TOKEN}git@e.coding.net:bymori/website/ioinn.git
+  #注意！！！这里需要使用coding提供的个人令牌的用户名和token
+  codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}git@e.coding.net:bymori/website/ioinn.git
 git add -A
 git commit -m "${msg}"
 git push -f $codingUrl master # 推送到coding
