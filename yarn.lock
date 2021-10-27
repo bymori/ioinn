@@ -1034,9 +1034,9 @@
   integrity sha1-EAHMXmo3BLg8I2An538vWOoBD0A=
 
 "@types/node@*":
-  version "16.11.4"
-  resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.11.4.tgz#90771124822d6663814f7c1c9b45a6654d8fd964"
-  integrity sha1-kHcRJIItZmOBT3wcm0WmZU2P2WQ=
+  version "16.11.6"
+  resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.11.6.tgz?cache=0&sync_timestamp=1635213413252&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha1-a+96KgrWhM9ukPz+Mc7KvZzgo64=
 
 "@types/q@^1.5.1":
   version "1.5.5"
@@ -1777,7 +1777,7 @@ array-uniq@^1.0.1:
 
 array-unique@^0.3.2:
   version "0.3.2"
-  resolved "https://registry.npm.taobao.org/array-unique/download/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
+  resolved "https://registry.nlark.com/array-unique/download/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
 asap@^2.0.0:
@@ -10202,7 +10202,7 @@ vuepress-plugin-zooming@^1.1.7:
 
 vuepress-theme-vdoing@^1.8.3:
   version "1.8.3"
-  resolved "https://registry.nlark.com/vuepress-theme-vdoing/download/vuepress-theme-vdoing-1.8.3.tgz#9d4745007ee777fa01ff16adf45ec4f586d95557"
+  resolved "https://registry.npmmirror.com/vuepress-theme-vdoing/download/vuepress-theme-vdoing-1.8.3.tgz#9d4745007ee777fa01ff16adf45ec4f586d95557"
   integrity sha1-nUdFAH7nd/oB/xat9F7E9YbZVVc=
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
