@@ -4,7 +4,7 @@
  * @Author: by_mori
  * @Date: 2021-10-24 22:59:52
  * @LastEditors: by_mori
- * @LastEditTime: 2021-10-25 19:49:00
+ * @LastEditTime: 2021-10-27 18:23:36
  */
 // nav
 module.exports = [
@@ -24,6 +24,7 @@ module.exports = [
       {
         text: '学习笔记',
         items: [
+          { text: '《ESLint系列》', link: '/note/ESLintSeries/' },
           { text: '《JavaScript教程》', link: '/note/javascript/' },
           { text: '《JavaScript高级程序设计》', link: '/note/js/' },
           { text: '《ES6 教程》', link: '/note/es6/' },
