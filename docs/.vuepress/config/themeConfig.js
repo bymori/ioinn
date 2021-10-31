@@ -4,7 +4,7 @@
  * @Author: by_mori
  * @Date: 2021-10-24 22:59:52
  * @LastEditors: by_mori
- * @LastEditTime: 2021-10-25 15:03:15
+ * @LastEditTime: 2021-10-31 21:46:24
  */
 const nav = require('./nav.js');
 const htmlModules = require('./htmlModules.js');
@@ -19,7 +19,7 @@ module.exports = {
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
-  docsBranch: 'main',
+  docsBranch: 'master',
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
 
