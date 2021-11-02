@@ -5,7 +5,7 @@
  # @Author: by_mori
  # @Date: 2021-10-24 22:17:05
  # @LastEditors: by_mori
- # @LastEditTime: 2021-11-02 23:01:36
+ # @LastEditTime: 2021-11-02 23:06:24
 ### 
 
 # 确保脚本抛出遇到的错误
@@ -43,8 +43,7 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 #   #注意！！！这里需要使用coding提供的个人令牌的用户名和token
   # codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}@e.coding.net:bymori/website/ioinn.git
 # fi
-
-codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}@e.coding.net/bymori/website/ioinns.git
+codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}@e.coding.net/bymori/website/ioinn.git
 
 # git add -A
 # git commit -m "${msg}"
