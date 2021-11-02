@@ -4,7 +4,7 @@
  * @Author: by_mori
  * @Date: 2021-10-24 22:59:52
  * @LastEditors: by_mori
- * @LastEditTime: 2021-10-25 02:52:03
+ * @LastEditTime: 2021-11-02 21:15:29
  */
 // head
 module.exports = [
@@ -20,12 +20,4 @@ module.exports = [
   ],
   ['meta', { name: 'baidu-site-verification', content: 'code-QHouf9LCWa' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-  [
-    'script',
-    {
-      'data-ad-client': 'ca-pub-7828333725993554',
-      async: 'async',
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-    },
-  ], // 网站关联Google AdSense 与 html格式广告支持
 ];

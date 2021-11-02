@@ -5,7 +5,7 @@
  # @Author: by_mori
  # @Date: 2021-10-24 22:17:05
  # @LastEditors: by_mori
- # @LastEditTime: 2021-10-26 21:50:41
+ # @LastEditTime: 2021-11-02 21:24:34
 ### 
 
 # 确保脚本抛出遇到的错误
@@ -46,15 +46,15 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # git push -f $codingUrl master # 推送到coding的 master 分支
 
 # deploy to coding
-# echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
-# if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
-#   codingUrl=git@git.dev.tencent.com:bymori/website/ioinn.git
-# else
-#   codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}@git@e.coding.net:bymori/website/ioinn.git
-# fi
-# git add -A
-# git commit -m "${msg}"
-# git push -f $codingUrl master # 推送到coding
+echo 'blog.ioinn.cn\cn' > CNAME  # 自定义域名
+if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+  codingUrl=git@git.dev.tencent.com:by_mori/website/ioinn.git
+else
+  codingUrl=https://dPXPSdUzQa:${CODING_TOKEN}@git@e.coding.net:by_mori/website/ioinn.git
+fi
+git add -A
+git commit -m "${msg}"
+git push -f $codingUrl master # 推送到coding
 
 
 cd -
